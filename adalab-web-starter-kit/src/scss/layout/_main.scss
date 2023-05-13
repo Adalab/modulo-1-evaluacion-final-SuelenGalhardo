@@ -9,7 +9,6 @@ body {
   margin: 30px 0 1px 0;
   color: #8ccbea;
   letter-spacing: 0.5px;
-
   font-size: 14px;
 }
 
@@ -22,7 +21,6 @@ body {
   font-family: "Roboto Slab", serif;
   font-weight: bold;
   line-height: 1.25;
-  margin: 6px 0 5px;
 }
 .main-secttion-white-paragraph {
   font-size: 18px;
@@ -30,7 +28,7 @@ body {
   color: #4a4a4a;
   padding: 15px 0 0;
 }
-.main-section-button {
+.main-section-white-button {
   display: inline-block;
   color: #f26002;
   background-color: #fff;
@@ -43,5 +41,42 @@ body {
   margin: 30px 0 45px 0;
   line-height: 2;
 }
-.main-small {
+.main-section-blue {
+  background-color: #eff9ff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 90px 90px 90px;
+}
+.main-section-blue h2 {
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.25;
+  margin-top: 30px;
+  text-align: center;
+}
+.main-sextion-blue-boxe h3 {
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+}
+.main-sextion-blue-boxe p {
+  color: #000;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+}
+.main-section-blue-button {
+  background-color: #f26002;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 23px;
+  margin: 45px 53px;
+  padding: 0 30px 0 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
 }
