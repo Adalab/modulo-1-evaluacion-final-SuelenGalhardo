@@ -18,12 +18,14 @@
   height: 45px;
   background-position: center;
   margin-top: -22px;
+  transition: all 0.2s;
 }
 .footer-button:hover {
   background-color: #d1a44f;
+  transform: scale(1.4);
 }
 .footer-button:active {
-  background-color: blueviolet;
+  background-color: #ad62f3;
 }
 
 .footer-nav a {
