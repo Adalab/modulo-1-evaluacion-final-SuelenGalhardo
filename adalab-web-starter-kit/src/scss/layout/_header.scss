@@ -1,8 +1,7 @@
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;*/
-.header {
-}
-.header-menu {
+
+.hero-menu {
   width: 44px;
   height: 44px;
   position: fixed;
@@ -11,14 +10,13 @@ font-family: 'Roboto Slab', serif;*/
   align-items: center;
   justify-content: center;
 }
-.header-menu:hover {
+.hero-menu:hover {
   background-color: #d1a44f;
 }
 .header-menu:active {
   background-color: blueviolet;
 }
-.header-menu-icon {
-}
+
 .hero {
   height: 768px;
   background-image: url("../images/cover.jpg");
@@ -40,7 +38,7 @@ font-family: 'Roboto Slab', serif;*/
   text-transform: uppercase;
   line-height: 55px; /*espaçamento entre as linhas do titutlo*/
 }
-.hero p {
+.hero-paragraph {
   margin: 15px 0 45px 0;
   font-size: 16px;
 }
@@ -59,4 +57,42 @@ font-family: 'Roboto Slab', serif;*/
 }
 .hero-button:active {
   background-color: #ad62f3;
+}
+
+/*medias*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero-title {
+    width: 690px;
+    font-size: 80px;
+    line-height: 1.33; /*espaçamento entre as linhas do titutlo*/
+  }
+  .hero-paragraph {
+    margin: 20px 0 30px 0;
+    font-size: 24px;
+  }
+  .hero-button {
+    margin-bottom: 45px;
+  }
+  .hero-button:hover {
+    background-color: #d1a44f;
+  }
+  .hero-button:active {
+    background-color: #ad62f3;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-title {
+    width: 730px;
+    font-size: 100px;
+    line-height: 1.32; /*espaçamento entre as linhas do titutlo*/
+  }
+  .hero-paragraph {
+    margin: 10px 0 30px 0;
+    font-size: 24px;
+  }
+  .hero-button {
+    margin-bottom: 13px;
+  }
 }
