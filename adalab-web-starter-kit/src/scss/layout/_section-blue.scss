@@ -1,0 +1,48 @@
+.main-section-blue {
+  background-color: #eff9ff;
+  margin-bottom: -60px;
+  text-align: center;
+}
+.main-section-blue-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 45px;
+}
+.main-section-blue .title2 {
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.25;
+  padding: 30px 15px 45px;
+}
+
+.main-section-blue-box .title3 {
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  line-height: 1.66;
+}
+.main-section-blue-box .paragraph {
+  color: #000;
+  padding: 0 70px;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+}
+.main-section-blue-button {
+  height: 45px;
+  display: inline-block;
+
+  background-color: #f26002;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 24px;
+  padding: 0px 30px;
+  margin: 45px 0 60px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+}
