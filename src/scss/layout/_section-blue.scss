@@ -69,17 +69,16 @@
   $fotsizeLarge: 20px;
   font-weight: 500;
   line-height: 45px;
+  &:hover {
+    background-color: $colorYellow;
+  }
+  &:active {
+    background-color: $colorViolet;
+  }
   @media (min-width: 768px) and (max-width: 1024px) {
     padding: 2px 48px 2px 48px;
   }
   @media (min-width: 1025px) {
     padding: 0 64px 0 66px;
   }
-}
-
-.main-section-blue-button:hover {
-  background-color: $colorYellow;
-}
-.main-section-blue-button:active {
-  background-color: $colorViolet;
 }

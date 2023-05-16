@@ -9,12 +9,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.header-menu:hover {
-  background-color: $colorYellow;
-}
-.header-menu:active {
-  background-color: $colorViolet;
+  &:hover {
+    background-color: $colorYellow;
+  }
+  &:active {
+    background-color: $colorViolet;
+  }
 }
 
 .hero {
@@ -52,12 +52,12 @@
   width: 45px;
   height: 45px;
   background-position: center;
-}
-.hero-button:hover {
-  background-color: $colorYellow;
-}
-.hero-button:active {
-  background-color: $colorViolet;
+  &:hover {
+    background-color: $colorYellow;
+  }
+  &:active {
+    background-color: $colorViolet;
+  }
 }
 
 /*medias*/
@@ -74,12 +74,12 @@
   }
   .hero-button {
     margin-bottom: 45px;
-  }
-  .hero-button:hover {
-    background-color: $colorYellow;
-  }
-  .hero-button:active {
-    background-color: $colorViolet;
+    &:hover {
+      background-color: $colorYellow;
+    }
+    &:active {
+      background-color: $colorViolet;
+    }
   }
 }
 

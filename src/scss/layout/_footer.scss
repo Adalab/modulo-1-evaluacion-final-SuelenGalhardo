@@ -35,13 +35,13 @@
   margin-top: -22px;
   transition: all 0.2s;
   display: inline-block;
-}
-.footer-button:hover {
-  background-color: $colorYellow;
-  transform: scale(1.4);
-}
-.footer-button:active {
-  background-color: $colorViolet;
+  &:hover {
+    background-color: $colorYellow;
+    transform: scale(1.4);
+  }
+  &:active {
+    background-color: $colorViolet;
+  }
 }
 
 .footer-nav a {
@@ -78,7 +78,6 @@
     order: 0;
   }
 }
-
 .footer-span {
   color: $colorOrange;
 }
