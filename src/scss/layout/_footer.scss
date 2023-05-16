@@ -1,0 +1,84 @@
+.footer {
+  color: #fff;
+  background-color: #304268;
+  line-height: 30px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    justify-content: space-between;
+  }
+  @media (min-width: 1025px) {
+    justify-content: center;
+    gap: 100px;
+    padding: 25px;
+  }
+}
+.footer-button {
+  background-image: url("../images/ico-arrow.svg");
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 45px;
+  height: 45px;
+  background-position: center;
+  margin-top: -22px;
+  transition: all 0.2s;
+  display: inline-block;
+}
+.footer-button:hover {
+  background-color: #d1a44f;
+  transform: scale(1.4);
+}
+.footer-button:active {
+  background-color: #ad62f3;
+}
+
+.footer-nav a {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer-nav-list {
+  text-align: left;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+}
+.footer-nav-list:first-child {
+  margin-bottom: 30px;
+}
+.footer-box1 {
+  @media (min-width: 768px) {
+    order: 1;
+  }
+}
+.footer-box2 {
+  @media (min-width: 768px) {
+    order: 2;
+  }
+}
+.footer-box3 {
+  font-size: 14px;
+  text-align: center;
+  @media (min-width: 768px) {
+    text-align: start;
+    order: 0;
+  }
+}
+
+.footer-span {
+  color: #f26002;
+}
