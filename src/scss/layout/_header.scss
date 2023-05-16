@@ -1,7 +1,7 @@
 :root {
   font-family: $fontRobot;
 }
-.hero-menu {
+.header-menu {
   width: 44px;
   height: 44px;
   position: fixed;
@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
 }
-.hero-menu:hover {
+.header-menu:hover {
   background-color: $colorYellow;
 }
 .header-menu:active {
@@ -32,11 +32,11 @@
 .hero-title {
   font-family: $fontRobotslab;
   font-weight: bold;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); /*sombra texto zeplin*/
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   font-size: 42px;
   text-align: center;
   text-transform: uppercase;
-  line-height: 55px; /*espaçamento entre as linhas do titutlo*/
+  line-height: 55px;
 }
 .hero-paragraph {
   font-family: $fontRobot;
@@ -87,7 +87,7 @@
   .hero-title {
     width: 730px;
     font-size: 100px;
-    line-height: 1.32; /*espaçamento entre as linhas do titutlo*/
+    line-height: 1.32;
   }
   .hero-paragraph {
     margin: 10px 0 30px 0;
