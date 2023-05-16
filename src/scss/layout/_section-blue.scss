@@ -1,11 +1,11 @@
 .main-section-blue {
-  background-color: #eff9ff;
+  background-color: $colorBlue;
   margin-bottom: -60px;
   text-align: center;
 }
 .main-section-blue .title2 {
-  color: #000;
-  font-family: "Roboto Slab", serif;
+  color: $colorBlack;
+  font-family: $fontRobotslab;
   font-weight: bold;
   font-size: 24px;
   line-height: 1.25;
@@ -33,7 +33,7 @@
 }
 
 .main-section-blue-box .title3 {
-  color: #000;
+  color: $colorBlack;
   font-size: 18px;
   text-align: center;
   font-family: "Roboto Slab", serif;
@@ -47,11 +47,11 @@
 .main-section-blue-box .paragraph {
   color: #000;
   padding: 0 70px;
-  font-size: 18px;
+  font-size: $fontsizeMedium;
   line-height: 1.67;
   text-align: center;
   @media (min-width: 768px) {
-    font-size: 20px;
+    font-size: $fotsizeLarge;
     line-height: 1.5;
     margin-top: 14px;
     padding: 0 30px;
@@ -60,13 +60,13 @@
 .main-section-blue-button {
   height: 45px;
   display: inline-block;
-  background-color: #f26002;
-  color: #fff;
+  background-color: $colorOrange;
+  color: $colorWhite;
   text-decoration: none;
   border-radius: 24px;
   padding: 0px 30px;
   margin: 60px 0 60px;
-  font-size: 20px;
+  $fotsizeLarge: 20px;
   font-weight: 500;
   line-height: 45px;
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -78,8 +78,8 @@
 }
 
 .main-section-blue-button:hover {
-  background-color: #d1a44f;
+  background-color: $colorYellow;
 }
 .main-section-blue-button:active {
-  background-color: blueviolet;
+  background-color: $colorViolet;
 }

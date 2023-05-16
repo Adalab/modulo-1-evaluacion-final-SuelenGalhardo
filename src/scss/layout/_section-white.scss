@@ -1,9 +1,5 @@
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 .main-section-white {
-  background-color: #fff;
+  background-color: $colorWhite;
   padding: 0 15px;
   @media (min-width: 768px) and (max-width: 1024px) {
     padding: 0 40px;
@@ -21,14 +17,14 @@ body {
   letter-spacing: 0.5px;
   font-size: 14px;
   @media (min-width: 1025px) {
-    font-size: 16px;
+    font-size: $fontsizeSmall;
   }
 }
 
 .main-section-white-title {
-  color: #000;
+  color: $colorBlack;
   font-size: 24px;
-  font-family: "Roboto Slab", serif;
+  font-family: $fontRobotslab;
   font-weight: bold;
   line-height: 1.25;
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -51,13 +47,13 @@ body {
 }
 .main-section-white-button {
   display: inline-block;
-  color: #f26002;
-  background-color: #fff;
+  color: $colorOrange;
+  background-color: $colorWhite;
   text-decoration: none;
-  border: solid 2px #f26002;
+  border: solid 2px $colorOrange;
   border-radius: 24px;
   padding: 2px 32px;
-  font-size: 20px;
+  font-size: $fotsizeLarge;
   font-weight: 500;
   margin: 30px 0 45px 0;
   line-height: 2;
@@ -70,8 +66,8 @@ body {
   }
 }
 .main-section-white-button:hover {
-  background-color: #d1a44f;
+  background-color: $colorYellow;
 }
 .main-section-white-button:active {
-  background-color: #ad62f3;
+  background-color: $colorViolet;
 }

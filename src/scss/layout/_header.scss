@@ -1,17 +1,20 @@
+:root {
+  font-family: $fontRobot;
+}
 .hero-menu {
   width: 44px;
   height: 44px;
   position: fixed;
-  background-color: #0271bc;
+  background-color: $colorBluedark;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .hero-menu:hover {
-  background-color: #d1a44f;
+  background-color: $coloryellow;
 }
 .header-menu:active {
-  background-color: blueviolet;
+  background-color: $colorviolet;
 }
 
 .hero {
@@ -23,11 +26,11 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  color: #fff;
+  color: $colorWhite;
 }
 
 .hero-title {
-  font-family: "Roboto Slab", serif;
+  font-family: $fontRobotslab;
   font-weight: bold;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); /*sombra texto zeplin*/
   font-size: 42px;
@@ -36,8 +39,9 @@
   line-height: 55px; /*espaçamento entre as linhas do titutlo*/
 }
 .hero-paragraph {
+  font-family: $fontRobot;
   margin: 15px 0 45px 0;
-  font-size: 16px;
+  font-size: $fontsizeSmall;
 }
 .hero-button {
   background-image: url("../images/ico-scroll-down.svg");
@@ -50,10 +54,10 @@
   background-position: center;
 }
 .hero-button:hover {
-  background-color: #d1a44f;
+  background-color: $colorYellow;
 }
 .hero-button:active {
-  background-color: #ad62f3;
+  background-color: $colorViolet;
 }
 
 /*medias*/
@@ -72,10 +76,10 @@
     margin-bottom: 45px;
   }
   .hero-button:hover {
-    background-color: #d1a44f;
+    background-color: $colorYellow;
   }
   .hero-button:active {
-    background-color: #ad62f3;
+    background-color: $colorViolet;
   }
 }
 

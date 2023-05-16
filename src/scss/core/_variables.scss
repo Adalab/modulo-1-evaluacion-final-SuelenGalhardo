@@ -1,11 +1,20 @@
 //font
-$fontRobot: "Roboto";
-$fontRobotslab: "Roboto Slab";
+$fontRobot: "Roboto", sans-serif;
+$fontRobotslab: "Roboto Slab", serif;
 
 //color
 
 $colorWhite: #fff;
-$colororange: #f26002;
+$colorOrange: #f26002;
+$colorBluedark: #0271bc;
 $colorBlack: #000;
+$colorBlue: #eff9ff;
+$colorYellow: #d1a44f;
+$colorViolet: #ad62f3;
+$colorblueFooter: #304268;
 
-//$fontSize:;
+//$fontSize:
+
+$fontsizeSmall: 16px;
+$fontsizeMedium: 18px;
+$fotsizeLarge: 20px;
