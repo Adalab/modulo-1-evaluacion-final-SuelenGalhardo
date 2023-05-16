@@ -1,12 +1,7 @@
 .main-section-blue {
-  background-color: #eff9ff;
+  background-color: #4aace9;
   margin-bottom: -60px;
   text-align: center;
-}
-.main-section-blue-box {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-row-gap: 45px;
 }
 .main-section-blue .title2 {
   color: #000;
@@ -15,6 +10,26 @@
   font-size: 24px;
   line-height: 1.25;
   padding: 30px 15px 45px;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    font-size: 26px;
+    line-height: 1.73;
+  }
+  @media (min-width: 1025px) {
+    font-size: 32px;
+  }
+}
+
+.main-section-blue-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 45px;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media (min-width: 1025px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .main-section-blue-box .title3 {
@@ -24,6 +39,10 @@
   font-family: "Roboto Slab", serif;
   font-weight: bold;
   line-height: 1.66;
+  @media (min-width: 768px) {
+    font-size: 24px;
+    line-height: 1.25;
+  }
 }
 .main-section-blue-box .paragraph {
   color: #000;
@@ -31,6 +50,12 @@
   font-size: 18px;
   line-height: 1.67;
   text-align: center;
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 14px;
+    padding: 0 30px;
+  }
 }
 .main-section-blue-button {
   height: 45px;
@@ -40,11 +65,18 @@
   text-decoration: none;
   border-radius: 24px;
   padding: 0px 30px;
-  margin: 45px 0 60px;
+  margin: 60px 0 60px;
   font-size: 20px;
   font-weight: 500;
   line-height: 45px;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    padding: 2px 48px 2px 48px;
+  }
+  @media (min-width: 1025px) {
+    padding: 0 64px 0 66px;
+  }
 }
+
 .main-section-blue-button:hover {
   background-color: #d1a44f;
 }
